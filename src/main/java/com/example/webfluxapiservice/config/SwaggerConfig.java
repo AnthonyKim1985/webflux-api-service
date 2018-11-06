@@ -29,8 +29,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Authentication API")
-                .description("Authentication API")
+                .title("Webflux API Service")
+                .description("Webflux API Service")
                 .version("1.0")
                 .build();
     }
