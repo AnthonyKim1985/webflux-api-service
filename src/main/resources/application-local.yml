@@ -1,0 +1,10 @@
+server:
+  port: 30000
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
+
+jwt:
+  secret: cocoon!@#$
+  expiration: 3600000
